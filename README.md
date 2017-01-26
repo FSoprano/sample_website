@@ -49,4 +49,4 @@ instead of decimal-encoded entites like `&#8212;`.
 For longer code samples, indent 4 characters
 
     This ought to look like
-    A nice, juicy code sample.
+    a nice, juicy code sample.
