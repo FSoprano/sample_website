@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
+	 <div>
+      <a href="index.html">Home</a>
+      <a href="moby_dick.html">Moby Dick</a>
+      
+    </div>
 
+	<div>
     <h1>Important HTML tags</h1>
 	<a href="https://www.flickr.com/photos/jdhancock/3814523970">
 	<img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
@@ -24,9 +30,17 @@
       The tables below don't include all HTML tags, but they do list many of
       the most important ones.
     </p>
+	</div>
+	<div>
+		<header>
+      <h2>The most common block elements</h2>
+      
+    </header>
 	    <h2>Block Elements</h2>
 
     <table>
+	
+
       <tr>
         <th>Tag</th>
         <th>Name</th>
@@ -62,11 +76,30 @@
         <td>table data</td>
         <td>include a table data cell</td>
       </tr>
+	  <tr>
+        <td><code>ol</code></td>
+        <td>Ordered list</td>
+        <td>Introduces a numbered list</td>
+      </tr>
+	  <tr>
+        <td><code>ul</code></td>
+        <td>Unordered list</td>
+        <td>Introduces a bulleted list</td>
+      </tr>
+	  
     </table>
+	</div>
 	
+	<div>
+	<header>
+      <h2>The most common inline elements</h2>
+      
+    </header>
 	  <h2>Inline Elements</h2>
 
     <table>
+		
+
       <tr>
         <th>Tag</th>
         <th>Name</th>
@@ -81,6 +114,56 @@
         <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
         <td><em>technical sophistication</em></td>
       </tr>
+      <tr>
+        <td><code>strong</code></td>
+        <td>strong</td>
+        <td>make strong text</td>
+        <td>
+          <code><span>&lt;strong&gt;at least a billion people&lt;/strong&gt;</span></code>
+        </td>
+        <td>Makes text stand out strongly (mostly bold)</td>
+      </tr>
+      <tr>
+        <td><code>a</code></td>
+        <td>anchor</td>
+        <td>make hyperlink</td>
+        <td>
+          <code>
+            &lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+          </code>
+        </td>
+        <td>Adds a clickable hyperlink that takes you to another page.</td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>image</td>
+        <td>include an image</td>
+        <td>
+          <code>
+            &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+          </code>
+        </td>
+        <td>Allows you embed or link to image files.</td>
+      </tr>
+	  <tr>
+        <td><code>code</code></td>
+        <td>code</td>
+        <td>Sets code samples off from the surrounding text</td>
+        <td>
+          <code>&lt;code&gt;Sets code samples in a monospaced font
+          &lt;/code&gt;
+		  </code>
+        </td>
+        <td><code>Sets code samples in monospaced font</code></td>
+      </tr>
+	  <tr>
+        <td><code>li</code></td>
+        <td>List item</td>
+        <td>An item in a numbered or unordered list</td>
+		<td><code>&lt;ol>&lt;li>This is a list item.&lt;/li>&lt;/ol></code></td>
+		<td><ol><li>This is a list item.</li></ol></td>
+      </tr>
     </table>
+	</div>
   </body>
-  </html>
+</html>
